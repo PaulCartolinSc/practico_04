@@ -172,3 +172,67 @@ header {
 .card h2 {
   color: var(--accent-color);
 }
+
+/*Seccion Tabla*/
+
+#benefits h2 {
+    margin-bottom: 15px;
+}
+
+#benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+table {
+    border: 1px solid var(--secondary-color);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+th, td {
+    border: 1px solid var(--secondary-color);
+    padding: 15px;
+}
+
+
+
+.fila-clara {
+    background-color: rgb(3, 63, 26);
+    color: var(--text-color);
+}
+
+
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--background-secondary-color);
+}
+
+h1 span {
+    color: var(--accent-color);
+}
+@media (max-width: 768px) {
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    #contacto,
+    #derechos {
+        width: 100%;
+    }
+}

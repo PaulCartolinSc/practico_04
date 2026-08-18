@@ -243,25 +243,19 @@ h1 span {
 @media screen and (max-width: 500px){
 
   .banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
   position: relative;
   bottom: 150px;
-  background-color: rgba(0, 0, 0, 0.65);
-  padding: 20px;
-  border-radius: 10px;
+  
   
 }
 
 .banner h2 {
-  font-size: 14px;
+  font-size: 15px;
 
 }
 
 .banner p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 
